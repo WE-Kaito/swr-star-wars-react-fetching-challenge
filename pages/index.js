@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 
 export default function HomePage() {
   return (
+    
     <Layout>
       <h1>React Data Fetching: Star Wars</h1>
       <List>
@@ -21,6 +22,7 @@ export default function HomePage() {
         </li>
       </List>
     </Layout>
+    
   );
 }
 
